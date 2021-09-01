@@ -1,6 +1,6 @@
 # DHAP
 # Anchors
-Source code of CIKM2021 Long Paper: 
+Source code of SIGIR2021 Long Paper: 
 
 [One Chatbot Per Person: Creating Personalized Chatbots based on Implicit User Profiles ](https://arxiv.org/abs/2108.09355),
 
