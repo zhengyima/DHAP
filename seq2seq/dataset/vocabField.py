@@ -46,12 +46,11 @@ class VocabField():
             vec = [float(d) for d in data[1:]]
             if len(vocab) > 50000:
                 break
-            assert len(vec) == 100
             vecs.append(vec)
             vocab.append(word)
             word_num += 1
 
-        embedding = np.random.rand(word_num + 5, 100)
+        embedding = np.random.rand(word_num + 5, 300)
         for i,vec in enumerate(vecs):
             embedding[i+5] = vec
         return vocab, embedding

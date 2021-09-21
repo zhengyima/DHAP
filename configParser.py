@@ -64,7 +64,7 @@ parser.add_argument('--src_vocab_size', action='store', dest='src_vocab_size',
 parser.add_argument('--tgt_vocab_size', action='store', dest='tgt_vocab_size', 
                     help='Size of target vocab. //输出词表大小。', default=40000, type=int)
 parser.add_argument('--embedding_size', action='store', dest='embedding_size', 
-                    help='Size of embedding. //词向量维度。', default=100, type=int)
+                    help='Size of embedding. //词向量维度。', default=300, type=int)
 
 parser.add_argument('--rnn_cell', action='store', dest='rnn_cell', 
                     help='Type of RNN cell. gru or lstm. //RNN的类型，gru或lstm。', default='gru')
@@ -99,7 +99,7 @@ parser.add_argument('--beam_width', action='store', dest='beam_width',
 parser.add_argument('--data_path', action='store', dest='data_path', 
                     help='Type of RNN cell. gru or lstm. //RNN的类型，gru或lstm。', default='/home/zhengyi_ma/pcb/Data/PChatbot_byuser_filter')
 parser.add_argument('--user_limit', action='store', dest='user_limit', 
-                    help='Type of RNN cell. gru or lstm. //RNN的类型，gru或lstm。', type=int, default=100)
+                    help='Type of RNN cell. gru or lstm. //RNN的类型，gru或lstm。', type=int, default=3000000)
 parser.add_argument('--word2vec_path', action='store', dest='word2vec_path', 
                     help='Type of RNN cell. gru or lstm. //RNN的类型，gru或lstm。',default='/home/zhengyi_ma/pcb/Data/PChatbot.word2vec.200d.txt')    
 parser.add_argument('--result_path', action='store', dest='result_path', 
