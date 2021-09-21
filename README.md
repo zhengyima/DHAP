@@ -21,7 +21,7 @@ After downloading, you should put the embedding file to the path ```EMB_FILE```.
 
 # Data
 
-You should provide the dialogue history of users for training the model. For convenience, we provide a very small subset of [PChatbot](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) in the ```data/```. In the direcotry, each user's dialogue history is saved in one text file. Each line in the file should contain ```post text, user id of post, post timestamp, response text, user id of response, response timestamp, _, _ ```, with tab as the seperator. 
+You should provide the dialogue history of users for training the model. For convenience, we provide a very small subset of [PChatbot](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) in the ```data/``` as the demo data. In the direcotry, each user's dialogue history is saved in one text file. Each line in the file should contain ```post text, user id of post, post timestamp, response text, user id of response, response timestamp, _, _ ```, with tab as the seperator. 
 
 You can refer to ```seq2seq/dataset/perdialogDatasets.py``` for more details about the data processing.
 
