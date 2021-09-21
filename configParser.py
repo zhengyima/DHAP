@@ -19,7 +19,7 @@ parser.add_argument('--src_vocab_file', action='store', dest='src_vocab_file',
 parser.add_argument('--tgt_vocab_file', action='store', dest='tgt_vocab_file', 
                     help='Target vocab file path. //输出文件词表路径。')
 
-parser.add_argument('--model_dir', action='store', dest='model_dir', default='./experiment_2', 
+parser.add_argument('--model_dir', action='store', dest='model_dir', default='./outputs', 
                     help='Path to model directory. //模型保存目录。')
 parser.add_argument('--best_model_dir', action='store', dest='best_model_dir', default='./experiment/best', 
                     help='Path to best model directory. //最好模型保存目录。')
