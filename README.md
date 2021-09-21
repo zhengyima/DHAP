@@ -15,7 +15,7 @@ Then, you should download the pre-trained word embeddings to initialize the mode
 - sgns.weibo.bigram-char, folloing [Li et al.](https://github.com/Embedding/Chinese-Word-Vectors), Chinese word embeddings pre-trained on Weibo. [Google Drive](https://drive.google.com/drive/folders/1UqUNtO5SVjyYTERfi4IvVTHopjFtqNNO?usp=sharing)
 - Fasttext embeddings, English word embedding pre-trained on Reddit set. [Google Drive](https://drive.google.com/drive/folders/1UqUNtO5SVjyYTERfi4IvVTHopjFtqNNO?usp=sharing)
 
-You can pre-train your own embeddings(with the same format, i.e., the standard txt format) and use it in the model.
+You can pre-train your own embeddings(with the same format, i.e., the standard txt format), and use it in the model.
 
 After downloading, you should put the embedding file to the path ```EMB_FILE```.
 
